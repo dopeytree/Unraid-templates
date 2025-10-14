@@ -15,6 +15,12 @@
       <Repository>https://github.com/dopeytree/TVx</Repository>
       <Template>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/TVx/tvx.xml</Template>
     </App>
+    <App>
+      <Name>Octofree</Name>
+      <Description>Provides monitoring of Octopus energy FREE electricity sessions so you can make best use of them.</Description>
+      <Repository>https://github.com/dopeytree/octofree</Repository>
+      <Template>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/Octofree/octofree.xml</Template>
+    </App>
   </Apps>
 </Developer></content>
 <parameter name="filePath">/Users/ed/unraid-templates/profile.xml
