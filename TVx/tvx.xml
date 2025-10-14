@@ -49,7 +49,7 @@ The glow of a neon clock 🕰️ counting Saturday mornings long past&#xD;
   <DonateText>Support the project</DonateText>
   <DonateLink>https://github.com/sponsors/dopeytree</DonateLink>
   <Requires/>
-  <Description>*** Requires Tunarr or Dizquetv + Plex or Jellyfin media server. *** A warm, nostalgic IPTV player bringing back the analog TV experience. Load M3U playlists and XMLTV guides, browse channels with CRT effects, scanlines, vignette, and chromatic aberration.</Description>
+  <Description>*** Requires Tunarr or Dizquetv + Plex or Jellyfin media server. *** A warm, nostalgic IPTV player bringing back the analog TV experience. Load M3U playlists and XMLTV guides, browse channels with CRT effects, scanlines, vignette, and chromatic aberration. For support, visit the forum: https://forums.unraid.net/topic/194221-reserved-dopeytree-apps-support-thread/ or GitHub issues: https://github.com/dopeytree/TVx/issues</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
