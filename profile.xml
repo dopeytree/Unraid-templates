@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Developer>
+  <Name>dopeytree</Name>
+  <Bio>Mostly my own apps. A tinkering open-source developer & fellow Unraid user.  All that matters is that you are making something you love, to the best of your ability, here & now.</Bio>
+  <ProfileImage>https://github.com/dopeytree.png</ProfileImage>
+  <Profile>https://github.com/dopeytree</Profile>
+  <Donate>https://github.com/sponsors/dopeytree</Donate>
+  <WebPage>https://ed-stone.co.uk</WebPage>
+  <Forum-Support>https://forums.unraid.net/topic/194221-reserved-dopeytree-apps-support-thread/</Forum-Support>
+  <ForumProfile>https://forums.unraid.net/profile/183052-dopeytree/</ForumProfile>
+  <Apps>
+    <App>
+      <Name>TVx</Name>
+      <Description>A warm, nostalgic IPTV player bringing back the analog TV experience.</Description>
+      <Repository>https://github.com/dopeytree/TVx</Repository>
+      <Template>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/TVx/tvx.xml</Template>
+    </App>
+  </Apps>
+</Developer></content>
+<parameter name="filePath">/Users/ed/unraid-templates/profile.xml
