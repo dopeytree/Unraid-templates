@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/194221-reserved-dopeytree-apps-support-thread/</Support>
+  <Support>https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/</Support>
   <Project>https://github.com/dopeytree/octofree</Project>
   <Overview>🐙 Octopus - Free Electric!!! ⚡️&#xD;
 &#xD;
@@ -38,7 +38,7 @@ Octofree monitors the Octopus Energy website for upcoming free electricity savin
   <DonateText>Support the project</DonateText>
   <DonateLink>https://github.com/sponsors/dopeytree</DonateLink>
   <Requires/>
-  <Description>*** Requires Discord webhook. *** Monitors Octopus Energy free electricity sessions and sends notifications via Discord. For support, visit the forum: https://forums.unraid.net/topic/194221-reserved-dopeytree-apps-support-thread/ or GitHub issues: https://github.com/dopeytree/octofree/issues</Description>
+  <Description>*** Requires Discord webhook. *** Monitors Octopus Energy free electricity sessions and sends notifications via Discord. For support, visit the forum: https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/ or GitHub issues: https://github.com/dopeytree/octofree/issues</Description>
   <Networking>
     <Mode>bridge</Mode>
   </Networking>

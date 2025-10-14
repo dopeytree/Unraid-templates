@@ -9,7 +9,7 @@ Mostly my own apps - A tinkering open-source developer & fellow Unraid user
 - **GitHub Profile**: [https://github.com/dopeytree](https://github.com/dopeytree)
 - **Donate**: [https://github.com/sponsors/dopeytree](https://github.com/sponsors/dopeytree)
 - **Web Page**: [https://ed-stone.co.uk](https://ed-stone.co.uk)
-- **Forum Support Thread**: [https://forums.unraid.net/topic/194221-reserved-dopeytree-apps-support-thread/](https://forums.unraid.net/topic/194221-reserved-dopeytree-apps-support-thread/)
+- **Forum Support Thread**: [https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/](https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/)
 - **Forum Profile**: [https://forums.unraid.net/profile/183052-dopeytree/](https://forums.unraid.net/profile/183052-dopeytree/)
 
 ## Apps
