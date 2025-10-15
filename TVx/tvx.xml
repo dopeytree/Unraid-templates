@@ -40,6 +40,11 @@ The glow of a neon clock 🕰️ counting Saturday mornings long past&#xD;
   <WebUI>http://[IP]:[PORT:8777]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/dopeytree/TVx/main/tvx-unraid-template.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/dopeytree/TVx/main/public/logo.png</Icon>
+  <Screenshot>https://github.com/dopeytree/TVx/raw/main/public/screenshot-1.png?raw=true</Screenshot>
+  <Screenshot>https://github.com/dopeytree/TVx/raw/main/public/screenshot-2.png?raw=true</Screenshot>
+  <Screenshot>https://github.com/dopeytree/TVx/raw/main/public/screenshot-3.png?raw=true</Screenshot>
+  <Screenshot>https://github.com/dopeytree/TVx/raw/main/public/screenshot-4.png?raw=true</Screenshot>
+  <Screenshot>https://github.com/dopeytree/TVx/raw/main/public/screenshot-5.png?raw=true</Screenshot>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
