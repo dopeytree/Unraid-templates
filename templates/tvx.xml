@@ -51,7 +51,7 @@ The glow of a neon clock 🕰️ counting Saturday mornings long past&#xD;
 &#xD;
     </Overview>
     <Beta>False</Beta>
-    <Category>MediaApp:Video:Status:Stable</Category>
+    <Category>MediaApp:Video, Productivity, Tools:Utilities</Category>
     <ExtraSearchTerms>iptv television tunarr dizquetv crt vintage retro tv streaming epg m3u xmltv channels plex jellyfin nostalgic analog vhs vignette scanlines</ExtraSearchTerms>
     <Icon>https://raw.githubusercontent.com/dopeytree/TVx/main/public/logo.png</Icon>
     <TemplateURL>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/templates/tvx.xml</TemplateURL>
