@@ -1,20 +1,23 @@
 <?xml version="1.0"?>
-<Container version="2">
-  <Name>Octofree</Name>
-  <Repository>ghcr.io/dopeytree/octofree:latest</Repository>
-  <Registry>https://github.com/dopeytree/octofree/pkgs/container/octofree</Registry>
-  <Network>bridge</Network>
-  <MyIP/>
-  <Shell>sh</Shell>
-  <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/</Support>
-  <Project>https://github.com/dopeytree/octofree</Project>
-  <Overview>🐙 Octopus - Free Electric!!! ⚡️&#xD;
+<Container version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://raw.githubusercontent.com/nwithan8/unraid_templates/main/template_schema.xsd template_schema.xsd">
+    <Name>Octofree</Name>
+    <Repository>ghcr.io/dopeytree/octofree</Repository>
+    <Registry>https://github.com/dopeytree/octofree/pkgs/container/octofree</Registry>
+    <Branch>
+        <Tag>latest</Tag>
+        <TagDescription>Latest stable release</TagDescription>
+    </Branch>
+    <Network>bridge</Network>
+    <WebUI/>
+    <Privileged>false</Privileged>
+    <Support>https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/</Support>
+    <Project>https://github.com/dopeytree/octofree</Project>
+    <Overview>
+        🐙 Octopus - Free Electric!!! ⚡️&#xD;
 &#xD;
 Never miss Octopus free electricity again!&#xD;
 &#xD;
-[Note: Currently NO GUI check logs & discord for notifications]
-&#xD;
+[Note: Currently NO GUI check logs & discord for notifications]&#xD;
 &#xD;
 Octofree monitors the Octopus Energy website for upcoming free electricity saving sessions and sends timely Discord notifications to remind you to take advantage of them.&#xD;
 &#xD;
@@ -29,33 +32,31 @@ Octofree monitors the Octopus Energy website for upcoming free electricity savin
 2. Configure the container with your webhook&#xD;
 3. Let Octofree monitor and notify you!&#xD;
 &#xD;
-⚡ The free electricity awaits.</Overview>
-  <Category>Productivity:Tools Status:Stable</Category>
-  <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/Octofree/octofree.xml</TemplateURL>
-  <Icon>https://github.com/dopeytree/octofree/blob/61e16adea141812f674ca91d86ab697ac02e0c91/logo_octofree.png?raw=true</Icon>
-  <ExtraParams/>
-  <PostArgs/>
-  <CPUset/>
-  <DateInstalled></DateInstalled>
-  <DonateText>Support the project</DonateText>
-  <DonateLink>https://github.com/sponsors/dopeytree</DonateLink>
-  <Requires/>
-  <Description>*** Requires Discord webhook. *** Monitors Octopus Energy free electricity sessions and sends notifications via Discord. For support, visit the forum: https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/ or GitHub issues: https://github.com/dopeytree/octofree/issues</Description>
-  <Networking>
-    <Mode>bridge</Mode>
-  </Networking>
-  <ReadMe>https://github.com/dopeytree/octofree/blob/main/README.md</ReadMe>
-  <Changes>
-### v1.0.0 (2025-10-14)
-- Initial Unraid Community Applications release
+⚡ The free electricity awaits.
+    </Overview>
+    <Beta>False</Beta>
+    <Category>Productivity:Tools:Other:Status:Stable</Category>
+    <ExtraSearchTerms>octopus energy free electricity discord notifications monitoring savings unraid</ExtraSearchTerms>
+    <Icon>https://raw.githubusercontent.com/dopeytree/octofree/main/logo_octofree.png</Icon>
+    <TemplateURL>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/templates/octofree.xml</TemplateURL>
+    <Screenshot>https://raw.githubusercontent.com/dopeytree/octofree/main/screenshot_full.png</Screenshot>
+    <Maintainer>
+        <WebPage>https://github.com/dopeytree</WebPage>
+    </Maintainer>
+    <Changes>
+### 2025-10-14
+
+Initial release
 - Full monitoring of Octopus Energy free electricity sessions
 - Discord webhook notifications
 - Configurable test mode and single run options
-  </Changes>
-  <Config Name="Discord Webhook URL" Target="DISCORD_WEBHOOK_URL" Default="" Mode="" Description="Discord webhook URL for sending notifications. Create a webhook in your Discord server settings." Type="Variable" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Test Mode" Target="TEST_MODE" Default="false" Mode="" Description="Enable test mode to send multiple notifications per session for testing. Default: false" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
-  <Config Name="Single Run" Target="SINGLE_RUN" Default="false" Mode="" Description="Run once and exit instead of looping continuously. Default: false" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
-  <Config Name="Output Directory" Target="OUTPUT_DIR" Default="/data" Mode="" Description="Directory for logs and session data. Default: /data" Type="Variable" Display="advanced" Required="false" Mask="false">/data</Config>
-</Container></content>
-<parameter name="filePath">/Users/ed/unraid-templates/Octofree/octofree.xml
+    </Changes>
+    <Requires>
+*** Requires Discord webhook. ***
+Monitors Octopus Energy free electricity sessions and sends notifications via Discord. For support, visit the forum: https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/ or GitHub issues: https://github.com/dopeytree/octofree/issues
+    </Requires>
+    <Config Name="Discord Webhook URL" Target="DISCORD_WEBHOOK_URL" Default="" Description="Discord webhook URL for sending notifications. Create a webhook in your Discord server settings." Type="Variable" Display="always" Required="true" Mask="true"/>
+    <Config Name="Output Directory" Target="/data" Default="/mnt/user/appdata/octofree" Mode="rw" Description="Directory for logs and session data." Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/octofree</Config>
+    <Config Name="Test Mode" Target="TEST_MODE" Default="false" Description="Enable test mode to send multiple notifications per session for testing. Default: false" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
+    <Config Name="Single Run" Target="SINGLE_RUN" Default="false" Description="Run once and exit instead of looping continuously. Default: false" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
+</Container>
