@@ -35,7 +35,7 @@ Octofree monitors the Octopus Energy website for upcoming free electricity savin
 ⚡ The free electricity awaits.
     </Overview>
     <Beta>False</Beta>
-    <Category>Productivity:Tools:Other:Status:Stable</Category>
+    <Category>Productivity: Tools: Other: Status:Stable</Category>
     <ExtraSearchTerms>octopus energy free electricity discord notifications monitoring savings unraid</ExtraSearchTerms>
     <Icon>https://raw.githubusercontent.com/dopeytree/octofree/main/logo_octofree.png</Icon>
     <TemplateURL>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/templates/octofree.xml</TemplateURL>
