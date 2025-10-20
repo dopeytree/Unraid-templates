@@ -1,8 +1,10 @@
-# Unraid Templates by dopeytree - [**ca_profile.xml**](https://github.com/dopeytree/Unraid-templates/blob/7f06b38aaa527f26ab5fac7051311159c564346a/templates/ca_profile.xml)
+# Unraid Templates by dopeytree - **ca_profile.xml**
 
 Mostly my own apps - A tinkering open-source developer & fellow Unraid user
 
 'All that matters is that you are making something you love, to the best of your ability, here & now'
+
+## All templates xmls are in /templates
 
 ## Links
 
@@ -19,11 +21,11 @@ Mostly my own apps - A tinkering open-source developer & fellow Unraid user
 A warm, nostalgic IPTV player bringing back the analog TV experience. Load M3U playlists and XMLTV guides, browse channels with CRT effects, scanlines, vignette, and chromatic aberration.
 
 - **Repository**: [https://github.com/dopeytree/TVx](https://github.com/dopeytree/TVx)
-- **Template**: [tvx.xml](https://github.com/dopeytree/Unraid-templates/blob/7f06b38aaa527f26ab5fac7051311159c564346a/templates/tvx.xml)
+- **Template**: tvx.xml
 
 ### Octofree
 
 Provides monitoring of Octopus energy FREE electricity sessions so you can make best use of them. Monitors the Octopus Energy website and sends Discord notifications for upcoming free electricity periods.
 
 - **Repository**: [https://github.com/dopeytree/octofree](https://github.com/dopeytree/octofree)
-- **Template**: [octofree.xml](https://github.com/dopeytree/Unraid-templates/blob/7f06b38aaa527f26ab5fac7051311159c564346a/templates/octofree.xml)
+- **Template**: octofree.xml
