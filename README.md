@@ -1,4 +1,4 @@
-# Unraid Templates by dopeytree - [**profile**](https://github.com/dopeytree/Unraid-templates/blob/7f06b38aaa527f26ab5fac7051311159c564346a/templates/ca_profile.xml)
+# Unraid Templates by dopeytree - [**ca_profile.xml**](https://github.com/dopeytree/Unraid-templates/blob/7f06b38aaa527f26ab5fac7051311159c564346a/templates/ca_profile.xml)
 
 Mostly my own apps - A tinkering open-source developer & fellow Unraid user
 
