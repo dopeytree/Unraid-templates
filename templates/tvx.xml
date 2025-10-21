@@ -14,6 +14,8 @@
     <Project>https://github.com/dopeytree/TVx</Project>
     <Overview>
         📺 TVx — the warmth of modern nostalgia&#xD;
+        &#xD;
+        Vintage experience for IPTV - works best with tunarr & plex&#xD;
 &#xD;
 This is the way - television you remember feeling: present, unhurried, analog.&#xD;
 &#xD;
@@ -42,8 +44,8 @@ The glow of a neon clock 🕰️ counting Saturday mornings long past&#xD;
 &#xD;
 📖 DOCUMENTATION:&#xD;
 • Full Documentation: https://dopeytree.github.io/TVx/&#xD;
-• Installation Guide: https://dopeytree.github.io/TVx/installation&#xD;
-• Troubleshooting: https://dopeytree.github.io/TVx/troubleshooting&#xD;
+• Installation Guide: https://dopeytree.github.io/TVx/quick-start/#xD;
+• Troubleshooting: https://dopeytree.github.io/TVx/manual/troubleshooting/&#xD;
 &#xD;
 💬 SUPPORT:&#xD;
 • Unraid Forums: https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/&#xD;
@@ -51,7 +53,7 @@ The glow of a neon clock 🕰️ counting Saturday mornings long past&#xD;
 &#xD;
     </Overview>
     <Beta>False</Beta>
-    <Category>MediaApp:Video: Productivity: Tools: Utilities: Status:Stable</Category>
+    <Category>MediaApp:Video Productivity: Tools: Other: Status:Stable</Category>
     <ExtraSearchTerms>iptv television tunarr dizquetv crt vintage retro tv streaming epg m3u xmltv channels plex jellyfin nostalgic analog vhs vignette scanlines</ExtraSearchTerms>
     <Icon>https://raw.githubusercontent.com/dopeytree/TVx/main/public/logo.png</Icon>
     <TemplateURL>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/templates/tvx.xml</TemplateURL>
@@ -75,7 +77,7 @@ Initial release
     <Requires>
 *** Requires Tunarr or Dizquetv + Plex or Jellyfin media server. ***
     </Requires>
-    <Config Name="WebUI Port" Target="80" Default="8777" Mode="tcp" Description="Port for accessing the TVx web interface. After installation, access TVx at http://[IP]:[PORT]. Default: 8777" Type="Port" Display="always" Required="true" Mask="false">8777</Config>
+    <Config Name="WebUI Port" Default="8777" Mode="tcp" Description="Port for accessing the TVx web interface. After installation, access TVx at http://[IP]:[PORT]. Default: 8777" Type="Port" Display="always" Required="true" Mask="false">8777</Config>
     <Config Name="M3U URL" Target="VITE_M3U_URL" Default="http://your-tunarr-ip-address:8000/api/channels.m3u" Description="URL to your Tunarr M3U playlist. Replace 'your-tunarr-ip-address' with your actual Tunarr server IP." Type="Variable" Display="always" Required="true" Mask="false">http://your-tunarr-ip-address:8000/api/channels.m3u</Config>
     <Config Name="XMLTV URL" Target="VITE_XMLTV_URL" Default="http://your-tunarr-ip-address:8000/api/xmltv.xml" Description="URL to your Tunarr XMLTV EPG guide. Replace 'your-tunarr-ip-address' with your actual Tunarr server IP." Type="Variable" Display="always" Required="true" Mask="false">http://your-tunarr-ip-address:8000/api/xmltv.xml</Config>
     <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/tvx" Mode="rw" Description="Path for persistent storage of settings, configuration files, and logs (tvx.log). Logs are automatically rotated and saved here." Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/tvx</Config>
