@@ -24,11 +24,11 @@ Built for channel surfing, not catalog anxiety. Anti&#x2011;algorithm. Pro&#x201
   <Category>Other: MediaApp:Video MediaApp:Other Status:Stable</Category>
   <ExtraSearchTerms>m3u xml iptv tv guide crt vintage player plex emby jellyfin tunarr dizquetv ersatz</ExtraSearchTerms>
   <WebUI>http://[IP]:[PORT:8777]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/dopeytree/unraid-templates/main/templates/tvx.xml</TemplateURL>
-<Icon>https://raw.githubusercontent.com/dopeytree/TVx/main/public/logo.png</Icon>
-<Screenshot>https://raw.githubusercontent.com/dopeytree/TVx/main/public/screenshot-1.png</Screenshot>    <Screenshot>https://raw.githubusercontent.com/dopeytree/TVx/main/public/screenshot-2.png</Screenshot>
-<Screenshot>https://raw.githubusercontent.com/dopeytree/TVx/main/public/screenshot-3.png</Screenshot>    <Screenshot>https://raw.githubusercontent.com/dopeytree/TVx/main/public/screenshot-4.png</Screenshot>
-<Screenshot>https://raw.githubusercontent.com/dopeytree/TVx/main/public/screenshot-5.png</Screenshot>
+  <TemplateURL>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/templates/tvx.xml</TemplateURL>
+<Icon>https://raw.githubusercontent.com/dopeytree/Unraid-templates/master/logo/tvx.png</Icon>
+<Screenshot>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/screenshots/tvx-screenshot-1.png</Screenshot>    <Screenshot>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/screenshots/tvx-screenshot-2.png</Screenshot>
+<Screenshot>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/screenshots/tvx-screenshot-3.png</Screenshot>    <Screenshot>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/screenshots/tvx-screenshot-4.png</Screenshot>
+<Screenshot>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/screenshots/tvx-screenshot-5.png</Screenshot>
   <ExtraParams>--log-driver json-file --log-opt max-size=10m --log-opt max-file=3</ExtraParams>
   <PostArgs/>
   <CPUset/>
