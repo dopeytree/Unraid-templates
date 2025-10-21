@@ -4,5 +4,10 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"git.autofetch": true,
+		"git.autofetchPeriod": 180,
+		"git.confirmSync": true,
+		"git.showPushSuccessNotification": true
+	}
 }
