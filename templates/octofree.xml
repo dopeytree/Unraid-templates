@@ -13,7 +13,7 @@
 &#xD;
 Never miss Octopus free electricity again!&#xD;
 &#xD;
-[Note: Currently NO GUI check logs &amp; discord for notifications]&#xD;
+Note Currently NO GUI check logs &amp; discord for notifications&#xD;
 &#xD;
 Octofree monitors the Octopus Energy website for upcoming free electricity saving sessions and sends timely Discord notifications to remind you to take advantage of them.&#xD;
 &#xD;
@@ -22,7 +22,6 @@ Octofree monitors the Octopus Energy website for upcoming free electricity savin
 📱 Sends you a Discord notification on your mobile when a session is scheduled.&#xD;
 📣 Reminds you again 5 minutes before the session starts.&#xD;
 🐰 Warns 3 minutes before the end.&#xD;
-&#xD;
     </Overview>
     <Beta>False</Beta>
     <Category>Productivity: Tools: Other: Status:Stable</Category>
