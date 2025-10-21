@@ -41,8 +41,8 @@ Initial release
 - Configurable test mode and single run options
     </Changes>
     <Requires>
-*** Requires Discord webhook. ***
-Monitors Octopus Energy free electricity sessions and sends notifications via Discord. For support, visit the forum: https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/ or GitHub issues: https://github.com/dopeytree/octofree/issues
+*** Requires Discord webhook. *** &#xD;
+Monitors Octopus Energy free electricity sessions and sends notifications via Discord. &#xD; &#xD; For support, visit the forum: https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/ &#xD;or GitHub issues: https://github.com/dopeytree/octofree/issues
     </Requires>
     <Config Name="Discord Webhook URL" Target="DISCORD_WEBHOOK_URL" Default="" Description="Discord webhook URL for sending notifications. Create a webhook in your Discord server settings." Type="Variable" Display="always" Required="true" Mask="true"/>
     <Config Name="Output Directory" Target="/data" Default="/mnt/user/appdata/octofree" Mode="rw" Description="Directory for logs and session data." Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/octofree</Config>
