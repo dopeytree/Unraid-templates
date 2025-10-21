@@ -2,11 +2,7 @@
 <Container version="2">
     <Name>Octofree</Name>
     <Repository>ghcr.io/dopeytree/octofree:latest</Repository>
-<Registry>https://github.com/dopeytree/octofree/pkgs/container/octofree</Registry>
-    <Branch>
-        <Tag>latest</Tag>
-        <TagDescription>Latest stable release</TagDescription>
-    </Branch>
+    <Registry>ghcr.io/dopeytree/octofree</Registry>
     <Network>bridge</Network>
     <WebUI/>
     <Privileged>false</Privileged>
@@ -27,12 +23,6 @@ Octofree monitors the Octopus Energy website for upcoming free electricity savin
 📣 Reminds you again 5 minutes before the session starts.&#xD;
 🐰 Warns 3 minutes before the end.&#xD;
 &#xD;
-🚀 QUICK START:&#xD;
-1. Set up a Discord webhook URL&#xD;
-2. Configure the container with your webhook&#xD;
-3. Let Octofree monitor and notify you!&#xD;
-&#xD;
-⚡ The free electricity awaits.
     </Overview>
     <Beta>False</Beta>
     <Category>Productivity: Tools: Other: Status:Stable</Category>
