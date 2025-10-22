@@ -25,7 +25,7 @@ Built for channel surfing, not catalog anxiety. Anti&#x2011;algorithm. Pro&#x201
   <ExtraSearchTerms>m3u xml iptv tv guide crt vintage player plex emby jellyfin tunarr dizquetv ersatz</ExtraSearchTerms>
   <WebUI>http://[IP]:[PORT:8777]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/templates/tvx.xml</TemplateURL>
-<Icon>https://raw.githubusercontent.com/dopeytree/Unraid-templates/master/logo/tvx.png</Icon>
+<Icon>https://raw.githubusercontent.com/dopeytree/Unraid-templates/master/logos/tvx.png</Icon>
 <Screenshot>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/screenshots/tvx-screenshot-1.png</Screenshot>    <Screenshot>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/screenshots/tvx-screenshot-2.png</Screenshot>
 <Screenshot>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/screenshots/tvx-screenshot-3.png</Screenshot>    <Screenshot>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/screenshots/tvx-screenshot-4.png</Screenshot>
 <Screenshot>https://raw.githubusercontent.com/dopeytree/unraid-templates/master/screenshots/tvx-screenshot-5.png</Screenshot>
