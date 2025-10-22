@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>TVx</Name>
   <Repository>ghcr.io/dopeytree/tvx:latest</Repository>
-  <Registry>ghcr.io/dopeytree/tvx<Registry>
+  <Registry>ghcr.io/dopeytree/tvx</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -42,4 +42,5 @@ Built for channel surfing, not catalog anxiety. Anti&#x2011;algorithm. Pro&#x201
   <Config Name="WebUI Port" Target="80" Default="8777" Mode="tcp" Description="Host port for accessing the TVx web interface" Type="Port" Display="advanced" Required="true" Mask="false">8777</Config>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/tvx" Mode="rw" Description="Path for persistent storage of settings, configuration files" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/tvx</Config>
   <TailscaleStateDir/>
+  </Registry>
 </Container>
