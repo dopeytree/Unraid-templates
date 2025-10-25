@@ -23,7 +23,7 @@ Octofree monitors the Octopus Energy website for upcoming free electricity savin
 📣 Reminds you again 5 minutes before the session starts.&#xD;
 🐰 Warns 3 minutes before the end.&#xD;
     </Overview>
-    <Beta>False</Beta>
+    <Beta>True</Beta>
     <Category>Productivity: Tools: Other: Status:Stable</Category>
     <ExtraSearchTerms>octopus energy free electricity discord notifications monitoring savings unraid</ExtraSearchTerms>
     <Icon>https://raw.githubusercontent.com/dopeytree/Unraid-templates/master/logos/octofree-logo.png</Icon>
