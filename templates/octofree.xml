@@ -5,6 +5,7 @@
     <Registry>ghcr.io/dopeytree/octofree</Registry>
     <Network>bridge</Network>
     <WebUI/>
+    <Shell>/usr/local/bin/console-wrapper</Shell>
     <Privileged>false</Privileged>
     <Support>https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/</Support>
     <Project>https://github.com/dopeytree/octofree</Project>
