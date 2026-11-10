@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Container version="2">
+    <Name>Birdsong</Name>
+    <Repository>ghcr.io/dopeytree/birdsong:latest</Repository>
+    <Registry>ghcr.io/dopeytree/birdsong</Registry>
+    <Network>bridge</Network>
+    <WebUI>http://[IP]:[PORT:80]/</WebUI>
+    <Shell>sh</Shell>
+    <Privileged>false</Privileged>
+    <Support>https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/</Support>
+    <Project>https://github.com/dopeytree/birdsong</Project>
+    <Overview>
+        🐦 Birdsong - your garden's birds as an 1800s naturalist's plate&#xD;
+&#xD;
+Birdsong draws the birds your BirdNET-Go station has heard as a single plate of hand-cut 1800s illustrations, each bird sized by how often it called.&#xD;
+&#xD;
+🎨 About 1,400 antique bird illustrations built in, no setup.&#xD;
+📅 Today, seven days, thirty days or all time, refreshed every minute.&#xD;
+🔎 Select a bird for a short description, calls by hour and by day, and its latest recordings with playback and spectrogram.&#xD;
+🖼️ One-screen mode fits the plate and the species index on a single page, ideal for a wall display.&#xD;
+&#xD;
+Requires BirdNET-Go, installed separately. Set its address below, then open the WebUI.&#xD;
+    </Overview>
+    <Beta>True</Beta>
+    <Category>HomeAutomation: Tools: Other: Status:Beta</Category>
+    <ExtraSearchTerms>birdnet birdnet-go birds birdsong bird detection audio illustrations dashboard wildlife nature fugleramme</ExtraSearchTerms>
+    <Icon>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/logos/birdsong-logo.png</Icon>
+    <TemplateURL>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/templates/birdsong.xml</TemplateURL>
+    <Screenshot>https://raw.githubusercontent.com/dopeytree/Unraid-templates/main/screenshots/birdsong-screenshot-1.jpg</Screenshot>
+    <Maintainer>
+        <WebPage>https://github.com/dopeytree</WebPage>
+    </Maintainer>
+    <Changes>
+### 2026-11-10
+
+Initial release
+- Plate of birds heard by BirdNET-Go, sized by number of calls
+- Bird cards with description, charts, recordings and playback
+- Fugleramme artwork built into the image, rebuilt weekly
+    </Changes>
+    <Requires>
+*** Requires BirdNET-Go, running and reachable from this container. *** &#xD;
+If BirdNET-Go has a password or private mode switched on, allow this container's address in its security settings. &#xD; &#xD; For support, visit the forum: https://forums.unraid.net/topic/194221-support-dopeytree-docker-templates/ &#xD;or GitHub issues: https://github.com/dopeytree/birdsong/issues
+    </Requires>
+    <Config Name="WebUI Port" Target="80" Default="8095" Mode="tcp" Description="Port the Birdsong page is served on." Type="Port" Display="always" Required="true" Mask="false">8095</Config>
+    <Config Name="BirdNET-Go Address" Target="BIRDNET_URL" Default="http://192.168.1.50:8080" Description="Address of your BirdNET-Go, with http:// and its port, for example http://192.168.1.50:8080. Use the server's IP, not localhost." Type="Variable" Display="always" Required="true" Mask="false">http://192.168.1.50:8080</Config>
+</Container>
