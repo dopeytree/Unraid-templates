@@ -29,3 +29,10 @@ Provides monitoring of Octopus energy FREE electricity sessions so you can make 
 
 - **Repository**: [https://github.com/dopeytree/octofree](https://github.com/dopeytree/octofree)
 - **Template**: octofree.xml
+
+### Birdsong
+
+Draws the birds your BirdNET-Go station has heard as a single plate of hand-cut 1800s illustrations, each bird sized by how often it called. Select a bird for a description, charts and its latest recordings.
+
+- **Repository**: [https://github.com/dopeytree/birdsong](https://github.com/dopeytree/birdsong)
+- **Template**: birdsong.xml
